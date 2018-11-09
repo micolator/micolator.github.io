@@ -12,7 +12,7 @@ Développeur sénior Java/javascript
 ** vueJS - débutant
 ** NPM/webpack - maîtrise
 ** Autre JS : jquery, sencha touch, dwr, prototype, mocha, chai, gulp, browserify
-** Autre : JSF, struts 1, cordova, bootstrap
+** Autre : JSF, struts 1, cordova, bootstrap, sass
 * Back
 ** java 8 - bonne maîtrise
 ** spring framework/boot/cloud netflix/data JPA/data REST - bonne maîtrise
