@@ -7,9 +7,9 @@ Développeur sénior Java/javascript
 
 == Compétences ==
 * Front
+** vueJS - maîtrise
 ** angularJS - bonne maîtrise
 ** angular - maîtrise
-** vueJS - débutant
 ** NPM/webpack - maîtrise
 ** Autre JS : jquery, sencha touch, dwr, prototype, mocha, chai, gulp, browserify
 ** Autre : JSF, struts 1, cordova, bootstrap, sass
