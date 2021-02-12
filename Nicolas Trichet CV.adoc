@@ -8,12 +8,14 @@ Développeur sénior Java/javascript
 == Compétences ==
 * Front
 ** vueJS - maîtrise
-** angularJS - bonne maîtrise
+** angularJS - maîtrise
 ** angular - maîtrise
 ** NPM/webpack - maîtrise
 ** Autre JS : jquery, sencha touch, dwr, prototype, mocha, chai, gulp, browserify
 ** Autre : JSF, struts 1, cordova, bootstrap, sass
 * Back
+** nestJS - bonne maîtrise
+** nodeJS - maîtrise
 ** java 8 - bonne maîtrise
 ** spring framework/boot/cloud netflix/data JPA/data REST - bonne maîtrise
 ** hibernate - bonne maîtrise
@@ -21,12 +23,14 @@ Développeur sénior Java/javascript
 ** postgreSQL/mySQL - maîtrise
 ** elastic search - maîtrise
 ** rabbitMQ - maîtrise
+** firebase firestore/messaging - maîtrise
 * Architecture
 ** CQRS/ES
 ** micro-services
 * Environnement de dev
 ** eclipse/intellij - maîtrise
 ** git - bonne maîtrise
+** docker/kubernetes
 ** Autre : jenkins, sonar, maven
 * Outils et méthodes utilisés
 ** scrum
@@ -36,50 +40,72 @@ Développeur sénior Java/javascript
 
 == Expériences ==
 
-=== SELSiA ===
-==== 2016 – Aujourd’hui ====
-Je participe à la refonte de la plateforme de publication : dans une architecture orientée micro-services (sur une base java8/spring boot) qui communiquent en direct via feign ou via un broker amqp je mets en place les différentes briques qui permettront de publier en temps réel chez les partenaires (sites d'annonces).
+=== https://www.matosbtp.com[MΔTOS BTP] ===
+==== février 2019 - aujourd'hiu ====
+Je participe au développement de la platforme de gestion de planning et de mise en relation d'entreprises de TP avec leurs locatiers (loueurs d'engins avec chauffeur).
 
-- j'ai mis en place une brique de configuration en CQRS/ES pour avoir un suivi des actions utilisateurs : postgresql pour les évènements, elasticsearch pour les projections.
-- j'ai mis en place un framework de gestion des exceptions à travers les appels REST réalisés avec des clients feign.
-- j'ai participé à l'internationalisation de l'application.
-- j'ai développé un module de transformation de fiche véhicule en annonce (en prenant la configuration de l'utilisateur) en programmation réactive (reactor 3)
-- j'ai participé à la mise en place de l'auto-documentation des APIs grâce à spring auto restdoc
-- je développe le socle d'une interface de configuration pour les sites d'annonces en vueJS/typescript, sur un build webpack.
+Rôle :
+
+* implémenter les nouvelles briques techniques
+* accompagner les développeurs dans leur montée en compétence
+* faire des revues de code pour éviter la dette technique et sensibiliser les développeurs aux bonnes techniques de programmation
+* développer les fonctionnalités du logiciel
+
+
+Mission :
+
+Sur la base d'une application développée en php/jquery, j'ai mis en place le nouveau socle technique :
+
+* externalisation de l'authentification avec Keycloak
+* création d'un socle back js avec node, nestJS, graphQL, sequelize ORM et architecture CQRS
+* création d'un socle front js avec vueJS/vuex
+* réécriture complète de l'application mobile qui était en Java/android vers react-native
+* introduit l'utilisation de composition API dans les composants vueJS pour un meilleur découpage du code (réutilisation, maintenance)
+
+=== https://www.linkedin.com/company/selsia-argus-solution/about/[SELSiA] ===
+==== 2016 – jan. 2019 ====
+J'ai participé à la refonte de la plateforme de publication : dans une architecture orientée micro-services (sur une base java8/spring boot) qui communiquent en direct via feign ou via un broker amqp j'ai mis en place les différentes briques qui permettent de publier en temps réel chez les partenaires (sites d'annonces).
+
+* j'ai mis en place une brique de configuration en CQRS/ES pour avoir un suivi des actions utilisateurs : postgresql pour les évènements, elasticsearch pour les projections.
+* j'ai mis en place un framework de gestion des exceptions à travers les appels REST réalisés avec des clients feign.
+* j'ai participé à l'internationalisation de l'application.
+* j'ai développé un module de transformation de fiche véhicule en annonce (en prenant la configuration de l'utilisateur) en programmation réactive (reactor 3)
+* j'ai participé à la mise en place de l'auto-documentation des APIs grâce à spring auto restdoc
+* j'ai développé le socle d'une interface de configuration pour les sites d'annonces en vueJS/typescript, sur un build webpack.
 
 Ce projet est aussi en mode agile avec SCRUM, avec un niveau de qualité élevé (presque 90% de couverture de code, moins de 1% de ratio de dette technique...)
 
 ==== août 2014 – oct. 2016 ====
 J'ai participé à la mise en place de la nouvelle version du logiciel de gestion de vo PlanetVO² :
 
-- j'ai pris part aux décisions d'architecture (angular js, java 8, elasticsearch, micro-services, spring)
-- j'ai fait une étude sur la génération en temps réel de rapports sur le suivi des ventes et sur les recherches fulltext. J'ai ensuite activement contribué à mettre en place les requêtes de recherche et d’agrégation Elasticsearch.
-- j'ai mis en place un module de conversion de beans (entre les DAO et les DTO) avec Orika, en ajoutant la gestion d'un paramètre pour sélectionner un mapping particulier. Pour tester les mappings j'ai codé un module qui prend en entrée un fichier en json pour remplir un DAO et comparer le résultat du mapping avec ce qui est attendu.
-- j'ai construit le build gulp pour la construction du front en angular JS.
-- j'ai participé à la mise en place des conventions de coding front (premier "vrai" projet en angular js dans l'entreprise)
-- j'ai converti plusieurs modules qui étaient des webapps standards pour les mettre en spring boot
-- j'ai installé une ferme de serveurs pour lancer les tests e2e pour pouvoir réduire le temps de build.
-- J'ai développé le module de migration de l'ancien logiciel vers le nouveau logiciel, ce qui comprend la migration de la base de données (le modèle a évolué), la génération d'un "cahier de migration" pour que le responsable de la migration le remplisse et le réinjecte dans le système pour configurer le nouveau logiciel.
+* j'ai pris part aux décisions d'architecture (angular js, java 8, elasticsearch, micro-services, spring)
+* j'ai fait une étude sur la génération en temps réel de rapports sur le suivi des ventes et sur les recherches fulltext. J'ai ensuite activement contribué à mettre en place les requêtes de recherche et d’agrégation Elasticsearch.
+* j'ai mis en place un module de conversion de beans (entre les DAO et les DTO) avec Orika, en ajoutant la gestion d'un paramètre pour sélectionner un mapping particulier. Pour tester les mappings j'ai codé un module qui prend en entrée un fichier en json pour remplir un DAO et comparer le résultat du mapping avec ce qui est attendu.
+* j'ai construit le build gulp pour la construction du front en angular JS.
+* j'ai participé à la mise en place des conventions de coding front (premier "vrai" projet en angular js dans l'entreprise)
+* j'ai converti plusieurs modules qui étaient des webapps standards pour les mettre en spring boot
+* j'ai installé une ferme de serveurs pour lancer les tests e2e pour pouvoir réduire le temps de build.
+* J'ai développé le module de migration de l'ancien logiciel vers le nouveau logiciel, ce qui comprend la migration de la base de données (le modèle a évolué), la génération d'un "cahier de migration" pour que le responsable de la migration le remplisse et le réinjecte dans le système pour configurer le nouveau logiciel.
 
 Dans l'optique de pouvoir travailler plus efficacement, nous avons décidé :
 
-- de faire le projet en mode agile en utilisant SCRUM
-- d'avoir un niveau de qualité assez élevé (80% de couverture de code, dette technique limitée...)
-- de maîtriser le code et de l'améliorer au plus tôt en faisant des revues de code
-- de rendre l'architecture plus évolutive en découpant le logiciel en différentes briques (approche orientée micro-services)
+* de faire le projet en mode agile en utilisant SCRUM
+* d'avoir un niveau de qualité assez élevé (80% de couverture de code, dette technique limitée...)
+* de maîtriser le code et de l'améliorer au plus tôt en faisant des revues de code
+* de rendre l'architecture plus évolutive en découpant le logiciel en différentes briques (approche orientée micro-services)
 
 ==== mars 2012 – août 2014 ====
 J'ai commencé par faire du refactoring technique sur les logiciels et plateformes de SELSiA :
 
-- optimisation de chargement de données sur une application en struts 1 en utilisant le cache navigateur avec des ETag et réponses HTTP 304.
-- optimisation de batch de transfert de données pour la publication de véhicules d'occasion sur des sites commerciaux en mettant en place un mode différentiel basé sur un calcul de md5 sur chaque véhicule.
-- mise en place d'une petite interface d'administration des sessions tomcat en angular JS
-- modularisation du framework maison en briques indépendantes (SRP)
-- pompier sur git &#9786;
+* optimisation de chargement de données sur une application en struts 1 en utilisant le cache navigateur avec des ETag et réponses HTTP 304.
+* optimisation de batch de transfert de données pour la publication de véhicules d'occasion sur des sites commerciaux en mettant en place un mode différentiel basé sur un calcul de md5 sur chaque véhicule.
+* mise en place d'une petite interface d'administration des sessions tomcat en angular JS
+* modularisation du framework maison en briques indépendantes (SRP)
+* pompier sur git &#9786;
 
 Puis j'ai participé à la mise en place de la première application sur tablette pour faire un module de reprise de VO en sencha touch avec cordova côté front avec un backend java 7/hibernate-jpa/spring mvc (sans les vues, que des RestController). Je me suis occupé plus particulièrement de la mise en place du build avec Cordova en ios et android, et de la mise en place du backend (mapping jpa par annotations, rest controllers).
 
-=== Système U ===
+=== https://www.linkedin.com/company/systeme-u/[Système U] ===
 ==== Octobre 2010 – Février 2012 ====
 Rôle : Ingénieur - Concepteur
 
@@ -97,7 +123,7 @@ Missions :
 
 Environnement technique : Hibernate, spring, struts, java, javaScript, UCM, oracle 10gr3, weblogic 10.3, eclipse
 
-=== Vecteur Plus ===
+=== https://www.vecteurplus.com/[Vecteur Plus] ===
 ==== Avril 2010 – Septembre 2010 ====
 Rôle : Ingénieur - Concepteur
 
