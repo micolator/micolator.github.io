@@ -40,7 +40,7 @@ Développeur sénior Java/javascript
 == Expériences ==
 
 === https://www.matosbtp.com[MΔTOS BTP] ===
-==== février 2019 - aujourd'hiu ====
+==== février 2019 - aujourd'hui ====
 Je participe au développement de la platforme de gestion de planning et de mise en relation d'entreprises de TP avec leurs locatiers (loueurs d'engins avec chauffeur).
 
 Rôle :
