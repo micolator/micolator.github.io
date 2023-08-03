@@ -16,13 +16,15 @@ Développeur sénior Java/javascript
 * Back
 ** nestJS - bonne maîtrise
 ** nodeJS - maîtrise
-** java 8 - bonne maîtrise
+** java - bonne maîtrise
 ** spring framework/boot/cloud netflix/data JPA/data REST - bonne maîtrise
 ** hibernate - bonne maîtrise
 ** postgreSQL/mySQL - maîtrise
 ** elastic search - maîtrise
 ** rabbitMQ - maîtrise
 ** firebase firestore/messaging - maîtrise
+** docker/kubernetes - maîtrise
+** GCP - administration
 * Architecture
 ** CQRS/ES
 ** micro-services
@@ -39,7 +41,7 @@ Développeur sénior Java/javascript
 
 == Expériences ==
 
-=== https://www.matosbtp.com[MΔTOS BTP] ===
+=== https://www.matosbtp.com[MΔTOS] ===
 ==== février 2019 - aujourd'hui ====
 Je participe au développement de la platforme de gestion de planning et de mise en relation d'entreprises de TP avec leurs locatiers (loueurs d'engins avec chauffeur).
 
@@ -49,6 +51,7 @@ Rôle :
 * accompagner les développeurs dans leur montée en compétence
 * faire des revues de code pour éviter la dette technique et sensibiliser les développeurs aux bonnes techniques de programmation
 * développer les fonctionnalités du logiciel
+* s'assurer du bon fonctionnement de l'infrastructure SAAS
 
 
 Mission :
@@ -59,7 +62,24 @@ Sur la base d'une application développée en php/jquery, j'ai mis en place le n
 * création d'un socle back js avec node, nestJS, graphQL, sequelize ORM et architecture CQRS
 * création d'un socle front js avec vueJS/vuex
 * réécriture complète de l'application mobile qui était en Java/android vers react-native
-* introduit l'utilisation de composition API dans les composants vueJS pour un meilleur découpage du code (réutilisation, maintenance)
+* introduction de composition API dans les composants vueJS pour un meilleur découpage du code (réutilisation, maintenance)
+* maintenance et évolution de l'architecture serveur qui utilise Kubernetes sur Google Cloud Platform
+
+=== https://www.kiwatch.com/[Kiwatch] ===
+==== 2021 ====
+J'ai participé pendant un an à la mise en place d'une solution de surveillance avec une centrale d'alarme.
+
+Réalisations :
+
+* création de la couche de communication entre le back en Java et la centrale d'alarme de l'utilisateur via un serveur de communication XMPP
+* participation au développement de la nouvelle interface utilisateur en React
+* montée de version de tomcat de 7.0 en 10.0
+* montée de version de java de 8 vers 17
+
+Étude :
+
+* remplacement de Guice par Spring
+* remplacement d'un ORM maison par Hibernate
 
 === https://www.linkedin.com/company/selsia-argus-solution/about/[SELSiA] ===
 ==== 2016 – jan. 2019 ====
