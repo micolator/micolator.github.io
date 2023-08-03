@@ -7,7 +7,7 @@ Développeur sénior Java/javascript
 
 == Compétences ==
 * Front
-** vueJS - maîtrise
+** vueJS (avec composition API) - maîtrise
 ** angularJS - maîtrise
 ** angular - maîtrise
 ** NPM/webpack - maîtrise
@@ -19,7 +19,6 @@ Développeur sénior Java/javascript
 ** java 8 - bonne maîtrise
 ** spring framework/boot/cloud netflix/data JPA/data REST - bonne maîtrise
 ** hibernate - bonne maîtrise
-** project reactor - débutant
 ** postgreSQL/mySQL - maîtrise
 ** elastic search - maîtrise
 ** rabbitMQ - maîtrise
