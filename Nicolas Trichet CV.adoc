@@ -2,14 +2,16 @@
 
 Développeur sénior Java/javascript
 
-* Je souhaite donner du sens à mon travail dans une équipe à fortes valeurs humaines, soucieuse du client et des collaborateurs
+* Je souhaite donner du sens à mon travail dans une petite structure, autonome et responsable de ses décisions
 * J'aime découvrir de nouveaux outils pour s'améliorer en technique et en méthodes de travail
+* Une équipe qui partage ses connaissances est une équipe qui grandit ensemble
 
 == Compétences ==
 * Front
 ** vueJS (avec composition API) - maîtrise
 ** angularJS - maîtrise
 ** angular - maîtrise
+** react-native - maîtrise
 ** NPM/webpack - maîtrise
 ** Autre JS : jquery, sencha touch, dwr, prototype, mocha, chai, gulp, browserify
 ** Autre : JSF, struts 1, cordova, bootstrap, sass
